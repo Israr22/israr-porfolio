@@ -1,25 +1,36 @@
 {
   "short_name": "Mohd Israr",
-  "name": "Mohd Israr | Full Stack Developer",
+  "name": "Mohd Israr | PHP Developer",
+  "description": "Portfolio of Mohd Israr, a PHP developer in Lucknow, India specializing in Laravel, HubSpot CRM integrations, payment automation, and SaaS applications.",
+  "id": "https://israr22.github.io/israr-porfolio/",
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",
+      "src": "android-chrome-192x192.png?v8=qAJ44G5Bm7",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
+      "src": "android-chrome-384x384.png?v8=qAJ44G5Bm7",
       "type": "image/png",
       "sizes": "384x384"
+    },
+    {
+      "src": "og-image.png",
+      "type": "image/png",
+      "sizes": "1200x630"
     }
   ],
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  "background_color": "#0f172a",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["portfolio", "developer", "business"]
 }

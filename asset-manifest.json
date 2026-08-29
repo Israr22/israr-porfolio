@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/israr-porfolio/static/css/main.161889d6.css",
-    "main.js": "/israr-porfolio/static/js/main.9df5ec19.js",
+    "main.js": "/israr-porfolio/static/js/main.cc750b10.js",
     "static/css/64.bba8fa55.chunk.css": "/israr-porfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.fc27e298.chunk.js": "/israr-porfolio/static/js/64.fc27e298.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/israr-porfolio/static/css/769.b3cbb36b.chunk.css",
@@ -11,11 +11,11 @@
     "static/media/manOnTable.svg": "/israr-porfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/israr-porfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/israr-porfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/skill.svg": "/israr-porfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/israr-porfolio/index.html",
+    "static/media/skill.svg": "/israr-porfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/talksCardBack.svg": "/israr-porfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.161889d6.css.map": "/israr-porfolio/static/css/main.161889d6.css.map",
-    "main.9df5ec19.js.map": "/israr-porfolio/static/js/main.9df5ec19.js.map",
+    "main.cc750b10.js.map": "/israr-porfolio/static/js/main.cc750b10.js.map",
     "64.bba8fa55.chunk.css.map": "/israr-porfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.fc27e298.chunk.js.map": "/israr-porfolio/static/js/64.fc27e298.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/israr-porfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.161889d6.css",
-    "static/js/main.9df5ec19.js"
+    "static/js/main.cc750b10.js"
   ]
 }

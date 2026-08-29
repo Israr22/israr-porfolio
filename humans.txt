@@ -1,0 +1,14 @@
+/* TEAM */
+Name: Mohd Israr
+Role: PHP Developer
+Site: https://israr22.github.io/israr-porfolio/
+Email: israrraza942001@gmail.com
+Location: Lucknow, India
+LinkedIn: https://www.linkedin.com/in/mohdisrar/
+GitHub: https://github.com/Israr22
+
+/* SITE */
+Standards: HTML5, CSS3, JSON-LD
+Components: React, GitHub Pages
+Last update: 2026/08/29
+Language: English
