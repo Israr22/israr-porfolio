@@ -3,7 +3,7 @@ Name: Mohd Israr
 Role: PHP Developer
 Site: https://israr22.github.io/israr-porfolio/
 Email: israrraza942001@gmail.com
-Location: Lucknow, India
+Location: India
 LinkedIn: https://www.linkedin.com/in/mohdisrar/
 GitHub: https://github.com/Israr22
 

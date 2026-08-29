@@ -199,7 +199,7 @@ const workExperiences = {
       company: "Cedcoss Technologies",
       companylogo: require("./assets/images/makewebbetterLogo.png"),
       date: "Apr 2025 – Present",
-      desc: "MakeWebBetter · Lucknow, India · Full-Time",
+      desc: "MakeWebBetter · India · Full-Time",
       descBullets: [
         "Developed scalable CRM and SaaS payment automation solutions for the HubSpot FormPay Integration platform using PHP, JavaScript, MongoDB, REST APIs, Webhooks, and HubSpot CRM.",
         "Integrated Stripe, PayPal, Authorize.Net, Razorpay, PayU, and Adyen with HubSpot forms to automate payment collection, contact sync, subscriptions, and onboarding.",

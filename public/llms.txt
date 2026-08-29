@@ -1,6 +1,6 @@
 # Mohd Israr
 
-> PHP developer in Lucknow, India with 4+ years of experience building CRM integrations, workflow automation, and SaaS applications. Specialized in PHP, Laravel, HubSpot CRM, payment gateways, and scalable backends.
+> India-based PHP developer with 4+ years of experience building CRM integrations, workflow automation, and SaaS applications. Specialized in PHP, Laravel, HubSpot CRM, payment gateways, and scalable backends.
 
 - Site: https://israr22.github.io/israr-porfolio/
 - Email: israrraza942001@gmail.com
@@ -8,12 +8,12 @@
 - LinkedIn: https://www.linkedin.com/in/mohdisrar/
 - GitHub: https://github.com/Israr22
 - Resume: https://drive.google.com/file/d/1xv_MwKjdyQgBeesvWpnPiTPvsm7QkegL/view?usp=sharing
-- Location: Lucknow, India
+- Location: India
 - Open to work: Yes
 
 ## About
 
-Mohd Israr (also known as Israr) is a PHP developer and full stack engineer in Lucknow, India. He builds CRM integrations, workflow automation systems, and SaaS products using PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. He integrates third-party platforms including Stripe, PayPal, Authorize.Net, QuickBooks, AWS S3, and cloud services.
+Mohd Israr (also known as Israr) is an India-based PHP developer and full stack engineer. He builds CRM integrations, workflow automation systems, and SaaS products using PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. He integrates third-party platforms including Stripe, PayPal, Authorize.Net, QuickBooks, AWS S3, and cloud services.
 
 ## Skills
 
@@ -25,7 +25,7 @@ Mohd Israr (also known as Israr) is a PHP developer and full stack engineer in L
 
 ## Experience
 
-### Software Engineer — Cedcoss Technologies Pvt. Ltd. (MakeWebBetter), Lucknow
+### Software Engineer — Cedcoss Technologies Pvt. Ltd. (MakeWebBetter), India
 Apr 2025 – Present
 
 - Built HubSpot FormPay Integration with PHP, JavaScript, MongoDB, REST APIs, webhooks, and HubSpot CRM
