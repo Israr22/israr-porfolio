@@ -44,7 +44,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
           className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}
-          onLoad={() => getColorArrays()}
+          onLoad={() => {
+            try {
+              getColorArrays();
+            } catch (e) {
+              // Keep the default banner color if palette extraction fails
+            }
+          }}
         />
       </div>
       <div className="experience-text-details">

@@ -23,10 +23,10 @@ const greeting = {
   username: "Mohd Israr",
   title: "Hi all, I'm Israr",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with PHP / Laravel / JavaScript / Node / Vue.js / React / Angular and some other cool libraries and frameworks."
+    "Results-driven Full Stack Developer 🚀 with 4+ years of experience building CRM integrations, workflow automation systems, and SaaS applications using PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. Specialized in HubSpot CRM integrations, payment gateway automation, webhooks, and scalable backend architecture."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1xv_MwKjdyQgBeesvWpnPiTPvsm7QkegL/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,13 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/Israr22",
   whatsapp: "https://wa.me/+919027909482",
   linkedin: "https://www.linkedin.com/in/mohdisrar/",
-  gmail: "israr.workplace@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  gmail: "israrraza942001@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -50,14 +44,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "FULL STACK DEVELOPER FOCUSED ON CRM INTEGRATIONS, PAYMENT AUTOMATION, AND SCALABLE SAAS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build CRM and SaaS platforms with HubSpot integrations, webhooks, and workflow automation"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate payment gateways including Stripe, PayPal, Authorize.Net, Razorpay, PayU, and Adyen"
+    ),
+    emoji(
+      "⚡ Connect third-party platforms such as QuickBooks, AWS S3, AWS SNS, and cloud services to streamline operations"
     )
   ],
 
@@ -74,20 +71,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "php",
@@ -98,8 +83,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "sql-database",
@@ -110,20 +107,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "angular",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "hubspot",
@@ -132,10 +121,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "stripe",
       fontAwesomeClassname: "fab fa-stripe"
-    },
-    {
-      skillName: "razorpay",
-      fontAwesomeClassname: "fab fa-razor"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -147,23 +132,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Global Institute of Management & Technology",
+      logo: require("./assets/images/gimtLogo.png"),
+      subHeader: "Master of Computer Application (MCA)",
+      duration: "2022 - 2024",
+      desc: "Greater Noida, India"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Mangalmay Institute of Management & Technology",
+      logo: require("./assets/images/mangalmayLogo.png"),
+      subHeader: "Bachelor of Computer Application (BCA)",
+      duration: "2019 - 2022",
+      desc: "Greater Noida, India"
     }
   ]
 };
@@ -174,36 +154,36 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      Stack: "Frontend",
+      progressPercentage: "85%"
     },
     {
       Stack: "CRM Integration",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Third Party API Integration",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Payment Gateway Integration",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "REST APIs & Webhooks",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Databases",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Cloud (AWS)",
       progressPercentage: "80%"
     },
     {
-      Stack: "Automation",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "AI Agents",
-      progressPercentage: "80%"
+      Stack: "Workflow Automation",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -216,28 +196,29 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Cedcoss Technologies",
+      companylogo: require("./assets/images/makewebbetterLogo.png"),
+      date: "Apr 2025 – Present",
+      desc: "MakeWebBetter · Lucknow, India · Full-Time",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed scalable CRM and SaaS payment automation solutions for the HubSpot FormPay Integration platform using PHP, JavaScript, MongoDB, REST APIs, Webhooks, and HubSpot CRM.",
+        "Integrated Stripe, PayPal, Authorize.Net, Razorpay, PayU, and Adyen with HubSpot forms to automate payment collection, contact sync, subscriptions, and onboarding.",
+        "Implemented webhook-based workflow automation for real-time CRM updates, payment tracking, transaction management, and automated customer communication.",
+        "Optimized backend services, third-party API integrations, and database operations to improve scalability, reliability, and user experience for global clients."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Techcompiler",
+      companylogo: require("./assets/images/techcompilerLogo.png"),
+      date: "Apr 2022 – Apr 2025",
+      desc: "Techcompiler Data System Pvt. Ltd. · Noida, India · Full-Time",
+      descBullets: [
+        "Developed and maintained CRM-driven Driver Training Management Systems using Laravel, Vue.js, PostgreSQL, AWS S3, and AWS SNS.",
+        "Integrated QuickBooks, cloud storage, SMS/email notifications, and third-party APIs to automate operational workflows and invoice generation.",
+        "Built scalable REST APIs and optimized database queries, improving response times by 40% and enhancing system performance.",
+        "Designed secure authentication and role-based authorization systems for multi-user platforms and enterprise workflows."
+      ]
     }
   ]
 };
@@ -247,35 +228,55 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
+  projects: [
+    {
+      node: {
+        id: "nova-s3-multipart-upload",
+        name: "nova-s3-multipart-upload",
+        description:
+          "A Laravel Nova resource tool to upload files directly to Amazon S3. Upload, download, and delete single, multiple, small, or large files.",
+        url: "https://github.com/Israr22/nova-s3-multipart-upload",
+        forkCount: 0,
+        stargazers: {totalCount: 1},
+        diskUsage: 1024,
+        primaryLanguage: {name: "PHP", color: "#4F5D95"}
+      }
+    }
+  ]
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "PRODUCTION PLATFORMS I HELPED BUILD AND SCALE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/certifiedSafeDriverLogo.png"),
+      projectName: "Certified Safe Driver",
+      projectDesc:
+        "Driver Training Management System supporting 50+ companies, 30+ instructors, and 500+ students with automated workflows, AWS S3 document management, QuickBooks invoicing, and SMS/email notifications. Built with Laravel, Vue.js, PostgreSQL, and Bootstrap.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://certifiedsafedriver.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/formpayLogo.png"),
+      projectName: "FormPay by MakeWebBetter",
+      projectDesc:
+        "CRM automation platform for secure payment collection through HubSpot forms. Webhook-based sync with Stripe, PayPal, Authorize.Net, Razorpay, PayU, and Adyen for payment tracking and customer management. Tech: PHP, JavaScript, HubSpot CRM, REST APIs, Docker, MongoDB.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://makewebbetter.com/hubspot-formpay-integration/"
+        },
+        {
+          name: "HubSpot Marketplace",
+          url: "https://ecosystem.hubspot.com/marketplace/listing/formpay-754041"
         }
       ]
     }
@@ -290,58 +291,8 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    }
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  achievementsCards: [],
+  display: false
 };
 
 // Blogs Section
@@ -350,21 +301,8 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
+  displayMediumBlogs: "false",
+  blogs: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -375,16 +313,8 @@ const talkSection = {
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
+  talks: [],
+  display: false
 };
 
 // Podcast Section
@@ -392,36 +322,30 @@ const talkSection = {
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  podcast: [],
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  // number: "+91 9027909482",
-  email_address: "israr.workplace@gmail.com"
+  number: "+91 9027909482",
+  email_address: "israrraza942001@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "twitter",
+  display: false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

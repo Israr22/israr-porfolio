@@ -10,11 +10,15 @@ export default function Projects() {
   );
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
-  const [repo, setrepo] = useState([]);
+  const [repo, setrepo] = useState(openSource.projects || []);
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
+    if (openSource.projects && openSource.projects.length) {
+      setrepoFunction(openSource.projects);
+      return;
+    }
     const getRepoData = () => {
       fetch("/profile.json")
         .then(result => {
@@ -60,9 +64,14 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={"View on GitHub"}
             className="project-button"
-            href={socialMediaLinks.github}
+            href={
+              (openSource.projects &&
+                openSource.projects[0] &&
+                openSource.projects[0].node.url) ||
+              socialMediaLinks.github
+            }
             newTab={true}
           />
         </div>
