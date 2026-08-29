@@ -23,9 +23,7 @@ export default function Projects() {
       fetch(`${process.env.PUBLIC_URL || ""}/profile.json`)
         .then(result => {
           if (!result.ok) {
-            throw new Error(
-              `Failed to load GitHub profile (${result.status})`
-            );
+            throw new Error(`Failed to load GitHub profile (${result.status})`);
           }
           return result.json();
         })
