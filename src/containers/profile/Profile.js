@@ -16,13 +16,19 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch(`${process.env.PUBLIC_URL || ""}/profile.json`)
           .then(result => {
-            if (result.ok) {
-              return result.json();
+            if (!result.ok) {
+              throw new Error(
+                `Failed to load GitHub profile (${result.status})`
+              );
             }
+            return result.json();
           })
           .then(response => {
+            if (!response || !response.data || !response.data.user) {
+              throw new Error("GitHub profile data is missing");
+            }
             setProfileFunction(response.data.user);
           })
           .catch(function (error) {

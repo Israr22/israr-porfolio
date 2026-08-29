@@ -24,13 +24,17 @@ export default function Blogs() {
   useEffect(() => {
     if (blogSection.displayMediumBlogs === "true") {
       const getProfileData = () => {
-        fetch("/blogs.json")
+        fetch(`${process.env.PUBLIC_URL || ""}/blogs.json`)
           .then(result => {
-            if (result.ok) {
-              return result.json();
+            if (!result.ok) {
+              throw new Error(`Failed to load blogs.json (${result.status})`);
             }
+            return result.json();
           })
           .then(response => {
+            if (!response || !response.items) {
+              throw new Error("Blog data is missing");
+            }
             setMediumBlogsFunction(response.items);
           })
           .catch(function (error) {

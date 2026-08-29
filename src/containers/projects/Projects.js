@@ -20,15 +20,26 @@ export default function Projects() {
       return;
     }
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch(`${process.env.PUBLIC_URL || ""}/profile.json`)
         .then(result => {
-          if (result.ok) {
-            return result.json();
+          if (!result.ok) {
+            throw new Error(
+              `Failed to load GitHub profile (${result.status})`
+            );
           }
-          throw result;
+          return result.json();
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          const repos =
+            response &&
+            response.data &&
+            response.data.user &&
+            response.data.user.pinnedItems &&
+            response.data.user.pinnedItems.edges;
+          if (!repos) {
+            throw new Error("GitHub repository data is missing");
+          }
+          setrepoFunction(repos);
         })
         .catch(function (error) {
           console.error(
