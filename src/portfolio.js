@@ -136,7 +136,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "razorpay",
       fontAwesomeClassname: "fab fa-razor"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -204,7 +204,7 @@ const techStack = {
     {
       Stack: "AI Agents",
       progressPercentage: "80%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -312,7 +312,7 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
+    }
     // {
     //   title: "Google Assistant Action",
     //   subtitle:
