@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/israr-porfolio/static/css/main.205bc364.css",
-    "main.js": "/israr-porfolio/static/js/main.49e90b96.js",
+    "main.js": "/israr-porfolio/static/js/main.03d70aca.js",
     "static/css/64.bba8fa55.chunk.css": "/israr-porfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.fc27e298.chunk.js": "/israr-porfolio/static/js/64.fc27e298.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/israr-porfolio/static/css/769.b3cbb36b.chunk.css",
@@ -23,7 +23,7 @@
     "index.html": "/israr-porfolio/index.html",
     "static/media/talksCardBack.svg": "/israr-porfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.205bc364.css.map": "/israr-porfolio/static/css/main.205bc364.css.map",
-    "main.49e90b96.js.map": "/israr-porfolio/static/js/main.49e90b96.js.map",
+    "main.03d70aca.js.map": "/israr-porfolio/static/js/main.03d70aca.js.map",
     "64.bba8fa55.chunk.css.map": "/israr-porfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.fc27e298.chunk.js.map": "/israr-porfolio/static/js/64.fc27e298.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/israr-porfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.205bc364.css",
-    "static/js/main.49e90b96.js"
+    "static/js/main.03d70aca.js"
   ]
 }
