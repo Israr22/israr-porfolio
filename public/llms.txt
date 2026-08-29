@@ -1,0 +1,51 @@
+# Mohd Israr
+
+> PHP developer in Lucknow, India with 4+ years of experience building CRM integrations, workflow automation, and SaaS applications. Specialized in PHP, Laravel, HubSpot CRM, payment gateways, and scalable backends.
+
+- Site: https://israr22.github.io/israr-porfolio/
+- Email: israrraza942001@gmail.com
+- Phone: +91 9027909482
+- LinkedIn: https://www.linkedin.com/in/mohdisrar/
+- GitHub: https://github.com/Israr22
+- Resume: https://drive.google.com/file/d/1xv_MwKjdyQgBeesvWpnPiTPvsm7QkegL/view?usp=sharing
+- Location: Lucknow, India
+- Open to work: Yes
+
+## About
+
+Mohd Israr (also known as Israr) is a PHP developer and full stack engineer in Lucknow, India. He builds CRM integrations, workflow automation systems, and SaaS products using PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. He integrates third-party platforms including Stripe, PayPal, Authorize.Net, QuickBooks, AWS S3, and cloud services.
+
+## Skills
+
+- Languages: PHP, JavaScript, TypeScript, SQL, Java, HTML5, CSS3, jQuery, AJAX
+- Frameworks: Laravel, Angular, Vue.js, Node.js, Bootstrap, Tailwind CSS, Symfony, Phalcon
+- CRM & automation: HubSpot CRM, CRM migration, workflow automation, webhooks, REST APIs, OAuth, payment gateway integration
+- Databases & cloud: MySQL, PostgreSQL, MongoDB, AWS S3, AWS SNS
+- Tools: Docker, Postman, Git, Swagger, PGAdmin, MySQL Workbench, Composer
+
+## Experience
+
+### Software Engineer — Cedcoss Technologies Pvt. Ltd. (MakeWebBetter), Lucknow
+Apr 2025 – Present
+
+- Built HubSpot FormPay Integration with PHP, JavaScript, MongoDB, REST APIs, webhooks, and HubSpot CRM
+- Integrated Stripe, PayPal, Authorize.Net, Razorpay, PayU, and Adyen with HubSpot forms
+- Implemented webhook-based payment tracking, subscriptions, and contact sync for global clients
+
+### Software Engineer — Techcompiler Data System Pvt. Ltd., Noida
+Apr 2022 – Apr 2025
+
+- Built Driver Training Management Systems with Laravel, Vue.js, PostgreSQL, AWS S3, and AWS SNS
+- Integrated QuickBooks, SMS/email notifications, and invoice automation
+- Improved REST API response times by 40% and designed role-based authentication
+
+## Projects
+
+- FormPay by MakeWebBetter: HubSpot payment collection platform. https://makewebbetter.com/hubspot-formpay-integration/
+- Certified Safe Driver: Driver training system for 50+ companies, 30+ instructors, 500+ students. https://certifiedsafedriver.com/
+- nova-s3-multipart-upload (open source): Laravel Nova S3 multipart upload tool. https://github.com/Israr22/nova-s3-multipart-upload
+
+## Education
+
+- MCA, 2022–2024, Global Institute of Management & Technology, Greater Noida, India
+- BCA, 2019–2022, Mangalmay Institute of Management & Technology, Greater Noida, India

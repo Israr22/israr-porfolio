@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Mohd Israr",
-  title: "Hi all, I'm Israr",
+  title: "Hi, I'm Israr — PHP Developer",
   subTitle: emoji(
-    "Results-driven Full Stack Developer 🚀 with 4+ years of experience building CRM integrations, workflow automation systems, and SaaS applications using PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. Specialized in HubSpot CRM integrations, payment gateway automation, webhooks, and scalable backend architecture."
+    "PHP developer with 4+ years of experience building CRM integrations, workflow automation, and SaaS applications in PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. Specialized in HubSpot CRM, payment gateway automation, webhooks, and scalable backend architecture."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1xv_MwKjdyQgBeesvWpnPiTPvsm7QkegL/view?usp=sharing",
@@ -45,10 +45,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FULL STACK DEVELOPER FOCUSED ON CRM INTEGRATIONS, PAYMENT AUTOMATION, AND SCALABLE SAAS",
+    "PHP DEVELOPER BUILDING LARAVEL APPS, HUBSPOT CRM INTEGRATIONS, AND PAYMENT AUTOMATION",
   skills: [
     emoji(
-      "⚡ Build CRM and SaaS platforms with HubSpot integrations, webhooks, and workflow automation"
+      "⚡ PHP development for CRM and SaaS platforms with Laravel, HubSpot integrations, webhooks, and workflow automation"
     ),
     emoji(
       "⚡ Integrate payment gateways including Stripe, PayPal, Authorize.Net, Razorpay, PayU, and Adyen"
