@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Mohd Israr",
-  title: "Hi all, I am Mohd Israr",
+  title: "Hi all, I'm Israr",
   subTitle: emoji(
     "Results-driven Full Stack Developer 🚀 with 4+ years of experience building CRM integrations, workflow automation systems, and SaaS applications using PHP, Laravel, JavaScript, Angular, Vue.js, PostgreSQL, and REST APIs. Specialized in HubSpot CRM integrations, payment gateway automation, webhooks, and scalable backend architecture."
   ),
