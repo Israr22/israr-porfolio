@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/israr-porfolio/static/css/main.161889d6.css",
-    "main.js": "/israr-porfolio/static/js/main.5098f1d4.js",
+    "main.js": "/israr-porfolio/static/js/main.236319c7.js",
     "static/css/64.bba8fa55.chunk.css": "/israr-porfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.fc27e298.chunk.js": "/israr-porfolio/static/js/64.fc27e298.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/israr-porfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.e7e51ff1.chunk.js": "/israr-porfolio/static/js/769.e7e51ff1.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/israr-porfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/israr-porfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/repaircityLogo.png": "/israr-porfolio/static/media/repaircityLogo.2123d2509fab269188e8.png",
     "static/media/manOnTable.svg": "/israr-porfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/sslgLogo.png": "/israr-porfolio/static/media/sslgLogo.c221ed9e55e8a2f24009.png",
     "static/media/contactMailDark.svg": "/israr-porfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/israr-porfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/revenuewaveLogo.png": "/israr-porfolio/static/media/revenuewaveLogo.996636b2737dc350b8d0.png",
+    "static/media/mergeworksLogo.png": "/israr-porfolio/static/media/mergeworksLogo.a0f353342bdc76153b1b.png",
     "index.html": "/israr-porfolio/index.html",
     "static/media/skill.svg": "/israr-porfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/talksCardBack.svg": "/israr-porfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.161889d6.css.map": "/israr-porfolio/static/css/main.161889d6.css.map",
-    "main.5098f1d4.js.map": "/israr-porfolio/static/js/main.5098f1d4.js.map",
+    "main.236319c7.js.map": "/israr-porfolio/static/js/main.236319c7.js.map",
     "64.bba8fa55.chunk.css.map": "/israr-porfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.fc27e298.chunk.js.map": "/israr-porfolio/static/js/64.fc27e298.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/israr-porfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -23,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.161889d6.css",
-    "static/js/main.5098f1d4.js"
+    "static/js/main.236319c7.js"
   ]
 }
