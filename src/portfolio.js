@@ -55,6 +55,12 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Connect third-party platforms such as QuickBooks, AWS S3, AWS SNS, and cloud services to streamline operations"
+    ),
+    emoji(
+      "⚡ Full-stack and backend development with PHP, Laravel, Node.js, JavaScript, Vue.js, Angular, MySQL, and PostgreSQL"
+    ),
+    emoji(
+      "⚡ AI-assisted development with large language models, Claude Code, Cursor, and workflow automation tools"
     )
   ],
 
@@ -121,6 +127,50 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "stripe",
       fontAwesomeClassname: "fab fa-stripe"
+    },
+    {
+      skillName: "Fullstack",
+      fontAwesomeClassname: "fas fa-layer-group"
+    },
+    {
+      skillName: "Backend",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AI",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "LLM",
+      fontAwesomeClassname: "fas fa-comments"
+    },
+    {
+      skillName: "Claude Code",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "Cursor",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Automation",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "CRM",
+      fontAwesomeClassname: "fas fa-address-book"
+    },
+    {
+      skillName: "Authorize.Net",
+      fontAwesomeClassname: "fas fa-credit-card"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -277,6 +327,54 @@ const bigProjects = {
         {
           name: "HubSpot Marketplace",
           url: "https://ecosystem.hubspot.com/marketplace/listing/formpay-754041"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/revenuewaveLogo.png"),
+      projectName: "Lead Management System",
+      projectDesc:
+        "Revenue Wave · Offsite · Mar 2024 – Nov 2024 (Part Time). Used Laravel jobs and queues to export millions of records in the background so large downloads stayed available without slowing the app. Built a documented API with Swagger and standardized local and production setups with Docker Compose. Tech: PHP, Laravel, AdminLTE, Docker, Swagger, jQuery, PostgreSQL, HTML, CSS, Bootstrap.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://revenuewave.io/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sslgLogo.png"),
+      projectName: "Social Security Law Group",
+      projectDesc:
+        "Offsite · Jan 2024 – Mar 2025 (Full Time). Added new roles and a global search built on optimized queries. Developed new APIs and reworked existing ones with custom queries, cutting compute time by about 50%. Tech: PHP, Laravel, Angular 8, Material UI, Docker, PostgreSQL, Bootstrap, HTML, CSS.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sslg.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/repaircityLogo.png"),
+      projectName: "Repair City",
+      projectDesc:
+        "Offsite · Jul 2023 – Feb 2024 (Part Time). Built a complaint management system with automated ticket creation, technician assignment, and live tracking on an interactive dashboard. Added secure authentication, SMS status alerts, and digital invoice automation.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://repaircity.net/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mergeworksLogo.png"),
+      projectName: "Merge Works",
+      projectDesc:
+        "Offsite · Jun 2023 – Dec 2023 (Full Time). Integrated a third-party API to fetch and post data into an interactive list, and built a timer with start, stop, and resume. Designed a live dashboard with ApexCharts.js and added PDF export. Tech: PHP, Symfony, Twig, MySQL, jQuery, AJAX, HTML, CSS.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mergeworks.com/"
         }
       ]
     }
